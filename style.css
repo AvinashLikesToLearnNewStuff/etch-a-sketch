@@ -1,0 +1,44 @@
+.header{
+  display: flex;
+align-items: center;
+width: 400px;
+justify-content: space-around;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+
+body{
+
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+#grid {
+
+  border: 1px solid black;
+  display: grid;
+  width: 500px;
+  height: 500px;
+}
+
+.cell {
+  border: 1px solid blue;
+  flex: 1 1 calc(25%);
+  /* margin: 5px; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.footer{
+display: flex;
+flex: 1  ;
+width: 500px;
+justify-content: space-between;
+margin-top: 10px;
+}
